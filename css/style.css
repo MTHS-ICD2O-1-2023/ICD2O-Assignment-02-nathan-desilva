@@ -28,6 +28,5 @@ p {
 img {
   float: right;
   .right-image 
-  height: auto;
-  width: 300px;
+  width: auto;
 }
