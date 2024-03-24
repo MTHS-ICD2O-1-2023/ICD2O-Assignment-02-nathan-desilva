@@ -14,5 +14,7 @@ function doMathClicked() {
   const height = parseInt(document.getElementById("height").value)
   // output
   document.getElementById("user-info").innerHTML =
-    "<p>The volume of a rectangular prism is: " + length * width * height + "cm³. </p>"
+    "<p>The volume of a rectangular prism is: " +
+    length * width * height +
+    "cm³. </p>"
 }
