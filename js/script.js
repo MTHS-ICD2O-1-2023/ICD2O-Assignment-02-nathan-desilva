@@ -12,9 +12,11 @@ function doMathClicked() {
   const length = parseInt(document.getElementById("length").value)
   const width = parseInt(document.getElementById("width").value)
   const height = parseInt(document.getElementById("height").value)
+
+  // process
+  const volumeOfPrism = length * width * height
+
   // output
-  document.getElementById("user-info").innerHTML =
-    "<p>The volume of a rectangular prism is: " +
-    length * width * height +
-    "cm³. </p>"
+  document.getElementById("volume-rectangle").innerHTML =
+    "<p>The volume of a rectangular prism is: " + volumeOfPrism + "cm³. </p>"
 }
