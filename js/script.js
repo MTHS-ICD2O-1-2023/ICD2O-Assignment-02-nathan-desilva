@@ -7,7 +7,7 @@
 "use strict"
 
 /**
- * This function gets users street number and street name and shows it back to user.
+ * This function calculates volume of a rectangular prism
  */
 function doMathClicked() {
   // input
