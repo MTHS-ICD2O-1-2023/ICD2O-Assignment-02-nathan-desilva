@@ -4,6 +4,8 @@
 // Created on: Mar 2024
 // This file contains the JS functions for index.html
 
+"use strict"
+
 /**
  * This function gets users street number and street name and shows it back to user.
  */
